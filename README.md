@@ -9,3 +9,23 @@ Procedure
 6. Paste the following code in the smaller box below the Pre-Logic Script Code:
       autoIncrement()
 7. Click OK.
+
+
+You can further filter the date as follows for each months,
+
+
+All points -> "date_time" >= date '2022-01-17' AND "date_time" <= date '2022-06-17'
+
+JAN -> "date_time" <= date '2022-01-31'
+
+FEB -> "date_time" > date '2022-01-31' AND "date_time" <= date '2022-02-28'
+
+MAR -> "date_time" > date '2022-02-28' AND "date_time" <= date '2022-03-31'
+
+APR -> "date_time" > date '2022-03-31' AND "date_time" <= date '2022-04-30'
+
+MAY -> "date_time" > date '2022-04-30' AND "date_time" <= date '2022-05-31'
+
+
+To understand the increment code, here is a short sample
+https://support.esri.com/en/technical-article/000011137
